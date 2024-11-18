@@ -16,6 +16,15 @@
 - whenever you're making API call so pass => {withCredential: true}
 - Install Redux Toolkit - https://redux-toolkit.js.org/tutorial/quick-start
 - Install react-redux + @redux/toolkit => create a configure store
+- Configure => Provider => createSlice => add reducer to store
+- Add Redux devtool in chrome
+- Login and see if your data is coming properly in the store
+- NavBar should update as soon as user logs in
+- Refactor our code to add contants file + create a components folder
+- You should not be access other routes without login
+- if token is not present, redirect user to login page
+- Logout
+- Profile
 
 - Body
   - NavBar
